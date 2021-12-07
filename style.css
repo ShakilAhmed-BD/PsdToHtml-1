@@ -1,0 +1,218 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Segoe UI';
+	box-sizing: border-box;
+}
+/*====================*/
+/*Re-Useble Style*/
+/*====================*/
+h1{
+	font-size: 50pt;
+	text-transform: uppercase;
+}
+
+h1.color-grey{
+	color:#464b4f;
+}
+p.color-grey{
+	color: #d6d5db;
+}
+p.font-small{
+	font-size: 10pt;
+}
+/*====================*/
+/*Header*/
+/*====================*/
+.header{
+	height: 550px;
+	width: 100% ;
+	background-color: #23232e;
+
+}
+.logo-area{
+	padding-top: 50px ;
+	width: fit-content;
+	margin: 0 auto;
+}
+.img-logo{
+	width:	100px ;
+	height: 100px;
+}
+.title-heading{
+	padding: 100px 0px 20px 0px  ;
+}
+.arrow-icon{
+	width: fit-content;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.icon-circle{
+	color:#d6d5db;
+	font-size: 35px;
+}
+/*====================*/
+/*AboutMe*/
+/*====================*/
+.AboutMe{
+	background-color: #fff;
+	background-image:url(assets/images/bg-scratch.png);
+}
+.Description-area{
+	margin: auto;
+	width: 45%;
+	padding:50px 0px;
+	color: #464b4f;
+	font-size: 18px;
+}
+/*====================*/
+/*What I Do/Profession_Area*/
+/*====================*/
+.profession-area{
+	padding-bottom:50px;
+}
+.MyServices{
+	width: 70%;
+	margin: auto;
+}
+.ServiceName{
+	font-weight: bold;
+	color: rgb(102, 101, 101);
+	font-size: 12px;
+}
+/*====================*/
+/*My Work*/
+/*====================*/
+.MyWork{
+	background-color: #23232e;
+}
+.mywork-nav{
+	float: center;
+	margin-top: 20px;
+}
+.mywork-nav li{
+	display: inline-block;
+	margin-right: 25px;
+}
+.mywork-nav li a{
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+}
+.mywork-nav li:hover{
+	background-color: grey;
+}
+/*Sample Gallery*/
+.gallery-area{
+	width: 64%;
+	margin:auto;
+}
+.workSample{
+	width: 220px;
+	height: 300px;
+	float: left;
+}
+.sampleGallery{
+	background-color:#7b77c9;
+	height: 220px;
+	width: 240px;
+	margin-bottom: 10px;	
+}
+.ProjectName{
+	font-size: 15px;
+}
+.ProjectCatagory{
+	font-size: 12px;
+	color:#727b97;
+}
+.btn-style{
+	background-color:#7b77c9;
+	color: #fff;
+	font-size: 12px;
+	padding: 10px 25px;
+}
+/*====================*/
+/*Photography*/
+/*====================*/
+.photography{
+	background-image:url(assets/images/bg-scratch.png);
+}
+.photography-area{
+	width: 64%;
+	margin:auto;
+}
+.photoSample{
+	width: 220px;
+	height: 240px;
+	float: left;
+}
+.PhotoGallery{
+	background-color:#7b77c9;
+	height: 220px;
+	width: 240px;
+}
+/*====================*/
+/*Newsletter*/
+/*====================*/
+.newsLetter{
+	background-color: #23232e;
+}
+.spacer{
+	background-color: #23232e;
+	height: 100px;
+}
+.footer-logo{
+	height: 30px;
+	width: 50px;
+}
+.infinity-icon{
+	font-size: 90px;
+	font-weight: 900;
+}
+.Footer-logo-area{
+	width: fit-content;
+	margin: 0 auto;
+}
+.newsletter-text{
+	margin-bottom: 50px;
+}
+.subscriptionArea{
+	text-align: center;
+	color:white;
+}
+.email-area{
+	height: 35px;
+	width: 250px;
+}
+.subs-btn{
+	background-color:#7b77c9;
+	color: #fff;
+	font-size: 10px;
+	margin: 0;
+	height: 35px;
+}
+/*====================*/
+/*Footer Area*/
+/*====================*/
+footer{
+	height: 300px;
+	background-color: #fff;
+	background-image: url(assets/images/bg-scratch.png);
+}
+.mySocialLink{
+	margin: 0 auto;
+	width: fit-content;
+
+}
+.img-icon{
+	margin: 70px 0px 70px 0px;
+	padding: 10px;
+}
+.footer-credit{
+	text-align: center;
+	font-size: 15px;
+}
+/*====================*/
+/*Made With Love By @Shakil_Ahmed*/
+/* 06-Dec-2021 */
+/*====================*/
